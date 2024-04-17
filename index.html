@@ -8,7 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400, 500, 600, 700, 800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0300, 400, 500, 600, 700, 800&display=swap" rel="stylesheet">
+   
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/2f3974cf45.js" crossorigin="anonymous"></script>
     <!-- tailwind custome color -->
@@ -24,17 +25,17 @@
         }
       </script>
     <style>
-        .font-manrope{
-        font-family: "Manrope", sans-serif;
+        .eb-garamond{
+           font-family: "EB Garamond", serif;
         }
     </style>
    
 </head>
-<body class="lg:font-manrope bg-white lg:px-28">
+<body class="eb-garamond bg-white lg:px-28">
     <!-- header dection -->
     <header>
         <!-- nav section -->
-        <nav>
+        <nav class="my-10 pt-6">
             <div class="navbar">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -81,10 +82,26 @@
                 </div>
               </div>
         </nav>
-        
-    </header>
-    <main>
+        <!-- banner sectin -->
+        <div class="hero min-h-96" style="background-image: url(images/Rectangle\ 5\ \(1\).png);">
+            <img src="images/banner (1).png" alt="">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-lg">
+                <h1 class="mb-5 text-5xl font-extrabold text-white">We Provide Effective Legal Solutions</h1>
+                <p class="mb-5 text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
 
+                <input type="text" class="bg-white px-20 py-3 rounded-md" placeholder="Search your services">
+
+                <button class="px-6 py-3 rounded-md border-none bg-[#B68C5A] text-white ml-3">search
+                </button>
+              </div>
+            </div>
+        </div>
+    </header>
+    <!-- main section -->
+    <main>
+      
     </main>
     <footer>
 
